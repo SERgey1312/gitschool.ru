@@ -20,7 +20,7 @@ $(document).ready(function() {
   return false;
  });
  /*slider*/
- var swiper = new Swiper('.comments-slider', {
+ var swiper_comments = new Swiper('.comments-slider', {
   observer: true,
   observeParents: true,
   slidesPerView: 1,
@@ -31,6 +31,25 @@ $(document).ready(function() {
   speed: 800,
   pagination: {
    el: '.comments-pagination',
+   clickable: true,
+  },
+  navigation: {
+   nextEl: '.comments-arrow_next',
+   prevEl: '.comments-arrow_prev',
+  },
+ });
+
+ var swiper_diploma = new Swiper('.diploma-slider', {
+  observer: true,
+  observeParents: true,
+  slidesPerView: 1,
+  spaceBetween: 15,
+  watchOverflow: true,
+  autoHeight: true,
+  effect: 'fade',
+  speed: 800,
+  pagination: {
+   el: '.diploma-pagination',
    clickable: true,
   },
   navigation: {

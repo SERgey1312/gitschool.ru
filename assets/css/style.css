@@ -1283,16 +1283,12 @@ footer {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   background: #FFFFFF;
-  padding: 40px 30px;
+  padding: 20px 30px;
   border-radius: 10px;
   border: 2px solid #7723F5;
   width: 100%;
   max-width: 450px;
   text-align: center;
-}
-
-.payment-form p {
-  margin-bottom: 30px;
 }
 
 .payment-form input {
